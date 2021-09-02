@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11914" started-at="2021-09-01T22:27:10 EDT" finished-at="2021-09-01T22:27:22 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11914" started-at="2021-09-01T22:27:10 EDT" finished-at="2021-09-01T22:27:22 EDT">
+      <class name="lec29_selenium.B_use_of_get_method">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:lec29_selenium.B_use_of_get_method@2bbf4b8b]" name="setUp" is-config="true" duration-ms="11408" started-at="2021-09-01T22:27:10 EDT" finished-at="2021-09-01T22:27:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginButtonTest()[pri:0, instance:lec29_selenium.B_use_of_get_method@2bbf4b8b]" name="loginButtonTest" duration-ms="186" started-at="2021-09-01T22:27:21 EDT" finished-at="2021-09-01T22:27:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonTest -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:lec29_selenium.B_use_of_get_method@2bbf4b8b]" name="tearUp" is-config="true" duration-ms="252" started-at="2021-09-01T22:27:22 EDT" finished-at="2021-09-01T22:27:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- lec29_selenium.B_use_of_get_method -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+module seleniumProject {
+	requires okio;
+}
