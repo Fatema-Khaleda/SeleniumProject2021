@@ -5,7 +5,7 @@
     <classes>
       <class name="hw10Q2selenium.Use_of_isDisplayed_method">
         <methods>
-          <include name="isDisplayedMethod"/>
+          <include name="signinlIdTest"/>
           <include name="setup"/>
           <include name="tearUp"/>
         </methods>

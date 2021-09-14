@@ -1,4 +1,4 @@
-package hw10Q2selenium;
+package hw11Q2selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_isDisplayed_method {
+public class SeleniumMethods {
+	
 WebDriver driver;
 	
 	@BeforeTest
@@ -26,13 +27,6 @@ WebDriver driver;
 		Thread.sleep(4000);
 	}
 	
-//	// Use of cssSelector
-//	@Test
-//	public void emailIdTest() {
-//		driver.findElement(By.cssSelector(".form-email required form-control error"));
-//		Thread.sleep(2000);
-//	}
-
 	@Test(enabled = true , priority = 2)
 	public void signinlIdTest() throws InterruptedException {
 		driver.findElement(By.cssSelector( ".signin btn btn-primary js-sign-in-active")).clear();
