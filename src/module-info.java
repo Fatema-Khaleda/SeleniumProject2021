@@ -1,3 +1,0 @@
-module seleniumProject {
-	requires okio;
-}

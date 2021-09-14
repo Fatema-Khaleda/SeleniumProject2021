@@ -19,9 +19,9 @@ public class B_use_of_get_method {
 		Thread.sleep(3333);
 	}
 	@Test
-	public void loginButtonTest() {
+	public void loginButtonTest() throws InterruptedException {
 		driver.findElement(By.id("cms-login-submit")).click();
-		
+		Thread.sleep(3333);
 	}
 
 	@AfterTest
