@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw10Q2selenium.Use_of_isDisplayed_method">
+      <class name="bcbs.Bcbs">
         <methods>
-          <include name="signinlIdTest"/>
+          <include name="tearup"/>
           <include name="setup"/>
-          <include name="tearUp"/>
+          <include name="isSelected"/>
         </methods>
-      </class> <!-- hw10Q2selenium.Use_of_isDisplayed_method -->
+      </class> <!-- bcbs.Bcbs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
